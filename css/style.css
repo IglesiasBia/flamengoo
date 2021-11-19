@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:ital,wght@1,300&display=swap');
+
+body{
+    background-color: red;
+}
+
+.loja{
+    background-color: black;
+    color: white;
+}
+
+
+h1{
+    text-align: center;
+    padding: 1em;
+}
+
+.nav{
+    position: fixed;
+    margin-top: 0px;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+}
+
+.card{
+    text-align: center;
+    margin-left: 100px;
+    background-color: black;
+}
+
+.preco{
+    border: none;
+    background-color: black;
+    margin: 0px;
+}
+
+.preco h5{
+    background-color: red;
+}
+
+#linha{
+    height: 25px;
+    background-color: red;
+}
+
+#historia{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#historia p{
+    margin-left: 3em;
+    margin-right: 3em;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#historia h1{
+    margin-top: 90px;
+    
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
