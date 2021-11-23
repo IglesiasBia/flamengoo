@@ -79,9 +79,9 @@ function calcularPedido(){
         precoBM = 279.99;
     }else if(brancaMasc == "G"){
         tamanhoBM = "G";
-        precoBM = 279.99;
+        precoBM = 279.99; 
     }else{
-        tamanhoBM = " ";
+        tamanhoBM = "";
         precoBM = 0.00;
     }
 
@@ -108,20 +108,20 @@ function calcularPedido(){
 }
 
 function finalizar(){
-
     //entrada
-    document.getElementById("total").value;
-
+    total = document.getElementById("total").value;
+    
     //Processamento
-
-    if(total == 0.00){
+    
+    if(total == 0){
         msg = "Você precisa escolher pelo menos um item para realizar o pedido.";
     }else{
-        msg = "Pedido Cadastrado com Sucesso! \n";
+        msg = "Pedido Cadastrado com Sucesso!";
         msg += "O valor total da compra é R$";
         msg += total;
     }
-
+    
     //saida
-    document.getElementById("msg").value = msg;
+    document.getElementById('msg').value = msg;
+    //document.getElementById("msg").value = msg;
 }
